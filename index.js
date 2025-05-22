@@ -81,7 +81,7 @@ switch(verb){
         fetch(`https://fakestoreapi.com/products/${id}`, {
             method: 'DELETE'
             })
-            .then(response => console.log(response.json()))
+            .then(response => response.json())
             .then(data => console.log(data));
         break;
 }
