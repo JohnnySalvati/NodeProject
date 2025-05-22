@@ -48,13 +48,11 @@ if (typeof endpoint === 'undefined'){                         // chequea que exi
     }
 }
 
-
 //
 // si el flujo de ejecucion llega a este punto
 // el verbo, endpoint y argumentos son validos
 // y se procede a ejecutar la solicitud
 //
-
 switch(verb){
     case "GET":
         if (id === 0){
